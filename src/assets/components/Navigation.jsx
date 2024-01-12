@@ -17,7 +17,7 @@ export default function Navigation() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href='#'></MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
@@ -29,19 +29,19 @@ export default function Navigation() {
         <MDBCollapse navbar open={openNav}>
           <MDBNavbarNav>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Home
+              <MDBNavbarLink active aria-current='page' href='/Home'>
+                Accueil
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Features</MDBNavbarLink>
+              <MDBNavbarLink href='/temoignages'>Témoignages</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+              <MDBNavbarLink href='#'>Qui sommes-nous ?</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
-                Disabled
+              Galerie
               </MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
