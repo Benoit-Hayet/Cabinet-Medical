@@ -1,11 +1,13 @@
-import React from 'react';
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
 
-function Quisommesnous(props) {
+const Quisommesnous =  ()  => {
     return (
         <div>
-            
+          <Navigation/> 
+          <Footer/>
         </div>
     );
-}
+};
 
 export default Quisommesnous;

@@ -7,6 +7,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 const Temoignages = () => {
   return (
@@ -66,7 +67,7 @@ const Temoignages = () => {
           <MDBCardTitle style={{ fontSize: '0.9rem' }}>Francine G.</MDBCardTitle>
         </MDBCardBody>
       </MDBCard>
-       
+      <Footer/>
     </div>
   );
 };
