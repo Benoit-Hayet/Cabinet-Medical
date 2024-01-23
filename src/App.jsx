@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from '../src/assets/pages/Home';
 import Temoignages from './assets/pages/Temoignages';
-import Quisommesnous from './assets/pages/Quisommesnous';
+import Equipe from './assets/pages/Equipe';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <Route path = "/home" element={<Home/>} />
       <Route path = "*" element={<Home/>} />
       <Route path = "/temoignages" element={<Temoignages/>} />
-      <Route path = "/quisommesnous" element={<Quisommesnous/>} />
+      <Route path = "/équipe" element={<Equipe/>} />
     </Routes>
     </BrowserRouter>
           </div>
