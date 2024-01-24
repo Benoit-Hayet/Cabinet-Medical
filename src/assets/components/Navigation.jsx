@@ -37,7 +37,7 @@ export default function Navigation() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-            <MDBNavbarLink href='#' style={{ color: '#74C274' }}>
+            <MDBNavbarLink href='/cabinet' style={{ color: '#74C274' }}>
                 Le Cabinet
               </MDBNavbarLink>
             </MDBNavbarItem>
