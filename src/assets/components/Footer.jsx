@@ -45,49 +45,19 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>INFOS PRATIQUES</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>HORAIRES D’OUVERTURE</h6>
               <p>
-              <MDBIcon icon="map-marker-alt" className="me-2" />
-              139 Avenue de Bordeaux <br/>33000 Bordeaux
+              <MDBIcon icon="clock />" className="me-2" />
+              Le cabinet est ouvert le lundi au vendredi de 09h00 à 19h00.
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                Les consultations se font uniquement sur rendez vous.
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
-              </p>
-            </MDBCol>
-
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Help
-                </a>
+              <MDBIcon icon="calendar-alt" className="me-2" />
+              Vous avez la possibilité de prendre rendez-vous en ligne via Doctolib
               </p>
             </MDBCol>
 
