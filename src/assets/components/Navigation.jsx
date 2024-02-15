@@ -51,11 +51,6 @@ export default function Navigation() {
                 Témoignages
               </MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink disabled style={{ color: '#74C274' }}>
-                Galerie
-              </MDBNavbarLink>
-            </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
