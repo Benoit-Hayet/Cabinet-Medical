@@ -13,7 +13,7 @@ export default function Footer() {
                 Cabinet Médical
               </h6>
               <p>
-                Une équipe attentionnée et a l'écoute située au coueur de Bordeaux.
+                Une équipe attentionnée et a l'écoute située au coeur de Bordeaux.
               </p>
             </MDBCol>
 
